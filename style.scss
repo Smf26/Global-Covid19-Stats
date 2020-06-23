@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: hsla(209, 56%, 36%, 0.808);
+  font-family: 'Barlow', sans-serif;
+  display: grid;
+  grid-template-rows: 11.2vh auto 10vh;
+  gap: 2px;
+  min-height: 100vh;
+  //background-image: url('https://cdn.pixabay.com/photo/2020/03/30/14/55/corona-4984497_960_720.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2020/03/20/17/38/covid-19-4951405_960_720.jpg');
+  //background-position: center;
+  background-repeat: repeat;
+  background-size: 100%;
+
+}
+// DEVELOPMENT ENVIROMENT CONFIGURATIONS
+  //div {border: 1px solid gray}
+
+header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: rgba(41, 111, 177, 0.623);
+  .navbox {
+    padding: 4px;
+    transform: rotateY(16deg);
+    h1 {
+      font-size: 2vw;
+    }
+  }
+}
+
+main {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid gray;
+  p {
+    color: rgba(151, 69, 69, 0.65);
+  }
+  .wrap {
+    width: 90%;
+    padding: 4px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    .content {
+      color: rgb(31, 37, 42);
+      width: 80%;
+      border: 3px solid gray;
+      border-radius: 10px;
+      background-color: rgba(41, 111, 177, 0.623);
+      &:hover {
+        background-color: rgba(51, 147, 236, 0.623);
+        width: 60%;
+        color: black;
+      }
+      h1 {
+        font-size: 2.2vw;
+        color: black;
+      }
+      h4 {
+        font-size: 1.2vw;
+      }
+      .deaths {
+        color: rgba(255, 0, 0, 0.65);
+      }
+    }
+  }
+  #search {
+    .row {
+      input {
+        width: 30vh;
+        height: 5vh;
+        border: .4em solid gray;
+        border-radius: 1em;
+        padding-left: .3em;
+        text-align: center;
+      }
+      button {
+        width: 15vw;
+        height: 6.5vh;
+        border-radius: 1em;
+        background-color: rgba(7, 7, 165, 0.616);
+        &:hover {
+          background-color: rgba(51, 147, 236, 0.623);
+          color: wheat;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(51, 147, 236, 0.623);
+  .footer-box {
+    padding: 4px;
+    font-size: 1.2vw;
+  }
+}

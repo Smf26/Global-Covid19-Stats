@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(40, 94, 143, 0.808);
+  font-family: 'Barlow', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 11.2vh auto 10vh;
+      grid-template-rows: 11.2vh auto 10vh;
+  gap: 2px;
+  min-height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/20/17/38/covid-19-4951405_960_720.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: rgba(41, 111, 177, 0.623);
+}
+
+header .navbox {
+  padding: 4px;
+  -webkit-transform: rotateY(16deg);
+          transform: rotateY(16deg);
+}
+
+header .navbox h1 {
+  font-size: 2vw;
+}
+
+main {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid gray;
+}
+
+main p {
+  color: rgba(151, 69, 69, 0.65);
+}
+
+main .wrap {
+  width: 90%;
+  padding: 4px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .wrap .content {
+  color: #1f252a;
+  width: 80%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  background-color: rgba(41, 111, 177, 0.623);
+}
+
+main .wrap .content:hover {
+  background-color: rgba(51, 147, 236, 0.623);
+  width: 60%;
+  color: black;
+}
+
+main .wrap .content h1 {
+  font-size: 2.2vw;
+  color: black;
+}
+
+main .wrap .content h4 {
+  font-size: 1.2vw;
+}
+
+main .wrap .content .deaths {
+  color: rgba(255, 0, 0, 0.65);
+}
+
+main #search .row input {
+  width: 30vh;
+  height: 5vh;
+  border: .4em solid gray;
+  border-radius: 1em;
+  padding-left: .3em;
+  text-align: center;
+}
+
+main #search .row button {
+  width: 15vw;
+  height: 6.5vh;
+  border-radius: 1em;
+  background-color: rgba(7, 7, 165, 0.616);
+}
+
+main #search .row button:hover {
+  background-color: rgba(51, 147, 236, 0.623);
+  color: wheat;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(51, 147, 236, 0.623);
+}
+
+footer .footer-box {
+  padding: 4px;
+  font-size: 1.2vw;
+}
+/*# sourceMappingURL=style.css.map */

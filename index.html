@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid-19 DataSets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbox">
+      <h1>COVID-19 GLOBAL PANDEMIC 2020</h1>
+    </div>
+  </header>
+  <!-- ================================= -->
+  <main id="container">
+    <p id="error"></p>
+    <div id="wrap" class="wrap"></div>
+    <div id="global" class="wrap"></div>
+    <div id="search" class="wrap">
+      <div class="row">
+        <input type="text" name="country" id="country" placeholder="Enter Country Name">
+      </div><br />
+      <div class="row">
+        <button id="btn" onclick="getCountryToSearch()">Search</button>
+      </div>
+    </div>
+  </main>
+  <!-- ================================= -->
+  <footer>
+    <div class="footer-box">
+      <p>COVID-19 STATISTICS</p>
+    </div>
+  </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
